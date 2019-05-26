@@ -148,6 +148,7 @@ void search()
 
 void menu()
 {
+  // prepare for menu 
 }
 //************************** Blynk Setting ****************************//
 
