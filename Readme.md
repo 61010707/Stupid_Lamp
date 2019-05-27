@@ -1,13 +1,13 @@
-# Stupid Lamp 
+# Stupid Lamp ( But smart )
 ## Feature 
->1. RGB LED Color 16.5 million color . 
->2. Gesture Detection for light dimmer .
->3. voice controls use  
->4. light mode => light decrease each color 1 step and increase each color 1 step 
+1. RGB LED Color 16.5 million color . 
+2. Gesture Detection for light dimmer .
+3. voice controls use  
+4. light mode => light decrease each color 1 step and increase each color 1 step 
 
 ## voice control list
 
-| list   |work|
+| voice  |work|
 | ------ | :---: |
 | Turn on light | Turn on light of lamp       |
 | Turn off light | Turn off Lamp |
@@ -24,4 +24,6 @@
 ![PIC2](https://github.com/61010707/Stupid_Lamp/blob/master/pic/S__2924552.png)
 
 ![PIC3](https://github.com/61010707/Stupid_Lamp/blob/master/pic/S__2924553.png)
+
+## Final
 
