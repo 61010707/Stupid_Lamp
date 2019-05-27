@@ -18,3 +18,10 @@
 
 ## Circuit
 
+
+![PIC1](https://github.com/61010707/Stupid_Lamp/blob/master/pic/S__2924551.png)
+
+![PIC2](https://github.com/61010707/Stupid_Lamp/blob/master/pic/S__2924552.png)
+
+![PIC3](https://github.com/61010707/Stupid_Lamp/blob/master/pic/S__2924553.png)
+
