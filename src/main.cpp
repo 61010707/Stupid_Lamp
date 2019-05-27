@@ -384,6 +384,7 @@ void loop()
       str = " ";
     }
     int check = sensorValue(1, 0, 1);
+    Serial.println(check);
     delay(3);
     if (check >= 1024 && isTouch == false)
     {
@@ -391,7 +392,6 @@ void loop()
       isTouch = true;
       Serial.print("in touch");
     }
-    
   }
 
   int checkSensor = sensorValue(1, 0, 1);
@@ -413,13 +413,13 @@ void loop()
       }
       inLoop = true;
     }
-    delay(500);
+    delay(1000);
     int readValue = sensorValue(1, 0, 1);
     delay(3);
-    if (readValue < 300)
+    if (readValue < 500)
     {
       Serial.print("dimmer up");
-      delay(500);
+
       analogWrite(VCC, 0);
       delay(1000);
       analogWrite(VCC, 1024);
@@ -430,17 +430,27 @@ void loop()
       isTouch = false;
       inLoop = false;
     }
-
-    if (readValue > 650)
+    else if (readValue > 600)
     {
-      Serial.print("dimmer up");
-      delay(500);
+      Serial.print("dimmer down");
 
       analogWrite(VCC, 0);
       delay(1000);
       analogWrite(VCC, 1024);
       delay(1000);
       lighStep = -1;
+      dimmer();
+      lighStep = 0;
+      isTouch = false;
+      inLoop = false;
+    }
+    else
+    {
+      analogWrite(VCC, 0);
+      delay(1000);
+      analogWrite(VCC, 1024);
+      delay(1000);
+      lighStep = 1;
       dimmer();
       lighStep = 0;
       isTouch = false;
