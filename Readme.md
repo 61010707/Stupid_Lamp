@@ -27,3 +27,8 @@
 
 ## Final
 
+![PIC1](https://github.com/61010707/Stupid_Lamp/blob/master/pic/105193.jpg)
+
+![PIC2](https://github.com/61010707/Stupid_Lamp/blob/master/pic/105194.jpg)
+
+![PIC3](https://github.com/61010707/Stupid_Lamp/blob/master/pic/105195.jpg)
